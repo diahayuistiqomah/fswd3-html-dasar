@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Pendaftaran SIB 2023</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/footer.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/form.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="/index.html">
+          <h1><b>DiahAyu</b></h1></a
+        >
+      </div>
+      <nav>
+        <ul>
+          <li><a href="./pages/nota.html">Nota</a></li>
+          <li><a href="./pages/playlist.html">Playlist</a></li>
+          <li><a href="./pages/form.html">Form</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1>Form Pendaftaran SIB 2023</h1>
+    <form action="submit.php" method="post" enctype="multipart/form-data">
+      <label for="nama">Nama Lengkap:</label>
+      <input type="text" id="nama" name="nama" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="nohp">No. HP:</label>
+      <input type="tel" id="nohp" name="nohp" required />
+
+      <label>Jenis Kelamin:</label>
+      <label for="laki-laki"> <input type="radio" id="laki-laki" name="jenis_kelamin" value="laki-laki" required /> Laki-Laki </label>
+      <label for="perempuan"> <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan" required /> Perempuan </label>
+
+      <label for="jurusan">Jurusan:</label>
+      <select id="jurusan" name="jurusan" required>
+        <option value="">Pilih Jurusan</option>
+        <option value="Informatika">Informatika</option>
+        <option value="Sistem Informasi">Sistem Informasi</option>
+        <option value="Teknik Elektro">Teknik Elektro</option>
+      </select>
+
+      <label for="alamat">Alamat:</label>
+      <textarea id="alamat" name="alamat" required></textarea>
+
+      <label for="foto">Upload Foto:</label>
+      <input type="file" id="foto" name="foto" required />
+
+      <input type="submit" value="Submit" />
+    </form>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h3>About Us</h3>
+            <p>ini adalah web yang dibuat untuk menyelesaikan tugas</p>
+          </div>
+          <div class="col-md-4">
+            <h3>Contact Us</h3>
+            <p>
+              Ds tambakromo rt 06 rw 02<br />
+              kec tambakromo,<br />
+              kab pati jawa tengah.<br />
+              Phone: 081229114169<br />
+              Email: diahayuistiqomah04@gmail.com
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+              <div>
+                <a href="https://www.linkedin.com/">LinkedIn</a>
+              </div>
+              <div>
+                <a href="https://www.facebook.com/profile.php?id=100069249172351&mibextid=ZbWKwL">Facebook</a>
+              </div>
+              <div>
+                <a href="https://instagram.com/diahhayu12?igshid=YzgyMTM2MGM=">Instagram</a>
+              </div>
+              <div>
+                <a href="https://github.com/diahayuistiqomah">GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
