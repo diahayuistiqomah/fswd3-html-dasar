@@ -9,7 +9,7 @@ const renderTodos = () => {
   fetch(`${urls}/todos`)
     .then((response) => response.json())
     .then((data) => {
-      console.log(data);
+    
       data.map((todo, index) => {
         const todoItem = document.createElement("li");
         todoItem.innerHTML = `
@@ -26,7 +26,7 @@ const renderTodos = () => {
           fetch(`${urls}/todos/${todo._id}`, { method: "DELETE" })
             .then(() => {
               renderTodos();
-              console.log("succes delete");
+         
             })
             .catch((error) => console.log(error));
         });
