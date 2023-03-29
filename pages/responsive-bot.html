@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap Card</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">Diah</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section
+        class="jumbotron jumbotron-fluid text-center d-flex justify-content-center align-items-center"
+        style="
+          background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 400px;
+        "
+      >
+        <div class="">
+          <div>
+            <h1 class="display-4">Selamat Datang di Website Saya</h1>
+            <p class="lead">Ini adalah contoh section hero yang dibuat dengan Bootstrap</p>
+            <a href="#" class="btn btn-primary btn-lg my-2">Tombol Utama</a>
+            <a href="#" class="btn btn-secondary btn-lg my-2">Tombol Sekunder</a>
+          </div>
+        </div>
+      </section>
+      <section class="bg-light mt-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h2>About Us</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget sapien euismod, vestibulum dui nec, consectetur odio. Nam efficitur, arcu in faucibus finibus, eros nunc interdum purus, non efficitur ante mauris ac
+                nisi. Sed sollicitudin, enim eget auctor tristique, justo tellus vestibulum est, at bibendum turpis lacus nec justo. Nullam a enim leo. Sed tincidunt, nisi et sagittis pharetra, quam eros tempus lacus, sit amet malesuada
+                tortor mi vel magna.
+              </p>
+            </div>
+            <div class="col-md-6">
+              <img src=https://images.unsplash.com/photo-1679939099437-5577669eebab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="About Us Image" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio">
+        <div class="container">
+          <h2>Portfolio</h2>
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <div class="ratio ratio-4x3">
+                  <img src="https://images.unsplash.com/photo-1679926596467-582e7270902c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="card-img-top" alt="Portfolio Item 1" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Portfolio Item 1</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget sapien euismod, vestibulum dui nec, consectetur odio.</p>
+                  <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <div class="ratio ratio-4x3">
+                  <img src="https://images.unsplash.com/photo-1679957838736-06265db4d121?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" class="card-img-top" alt="Portfolio Item 2" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Portfolio Item 2</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget sapien euismod, vestibulum dui nec, consectetur odio.</p>
+                  <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <div class="ratio ratio-4x3">
+                  <img src="https://images.unsplash.com/photo-1679913155425-e14172174fcc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" class="card-img-top" alt="Portfolio Item 3" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Portfolio Item 3</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget sapien euismod, vestibulum dui nec, consectetur odio.</p>
+                  <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <footer class="footer bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h4>About Us</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum lectus id quam luctus, sed molestie ex lobortis. Aenean lobortis nibh in odio semper, at dictum purus tincidunt.</p>
+            </div>
+            <div class="col-md-4">
+              <h4>Contact Us</h4>
+              <p>123 Main Street, New York, NY 10001</p>
+              <p>Phone: (123) 456-7890</p>
+              <p>Email: info@example.com</p>
+            </div>
+            <div class="col-md-4">
+              <h4>Connect With Us</h4>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">Connect With Us</button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <ul class="list-unstyled">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p>&copy; 2023 Diah Ayu. All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+  </body>
+</html>
